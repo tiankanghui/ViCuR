@@ -9,7 +9,7 @@
   <a target="_blank" href="https://shepnerd.github.io/">Yi Wang<sup><span style="font-family: 'Times New Roman', serif;">&dagger;</span></sup></a>
   <br>
   <strong>
-    Shanghai AI Laboratory, Fudan Univerisity, Nanjing University
+    <sup>1</sup>Shanghai AI Laboratory, <sup>2</sup>Fudan Univerisity, <sup>3</sup>Nanjing University
   </strong>
   <br>
   <sup>*</sup>Equal contribution &nbsp; <sup><span style="font-family: 'Times New Roman', serif;">&dagger;</span></sup>Corresponding author
