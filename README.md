@@ -1,15 +1,33 @@
 # ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation
 
+<div align="center" style="margin-bottom:.5em;">
+  <a target="_blank" href="#">Kanghui Tian<sup>*</sup></a>,
+  <a target="_blank" href="#">Siyuan Liu<sup>*</sup></a>,
+  <a target="_blank" href="#">Ziang Yan</a>,
+  <a target="_blank" href="#">Sheng Xia</a>,
+  <a target="_blank" href="#">Shuai Dong</a>,
+  <a target="_blank" href="#">Yi Wang<sup><span style="font-family: 'Times New Roman', serif;">&dagger;</span></sup></a>
+  <br>
+  <strong>
+    Shanghai AI Laboratory, Fudan Univerisity, Nanjing University
+  </strong>
+  <br>
+  <sup>*</sup>Equal contribution &nbsp; <sup><span style="font-family: 'Times New Roman', serif;">&dagger;</span></sup>Corresponding author
+</div>
+
 <p align="center">
-  <a href="files/ViCuR.pdf"><b>Paper</b></a> &nbsp;|&nbsp;
-  <a href="#quick-start"><b>Quick Start</b></a> &nbsp;|&nbsp;
-  <a href="#citation"><b>Citation</b></a>
+  <a href="files/ViCuR.pdf">Paper</a> &nbsp;|&nbsp;
+  <a href="#quick-start">Quick Start</a> &nbsp;|&nbsp;
+  <a href="#citation">Citation</a>
 </p>
 
-**ViCuR** is a visually grounded privileged-teacher distillation framework for multimodal reasoning. It replaces conventional answer-based privileges with *visual cues* — question-relevant evidence grounded in the input image — and introduces a lightweight **SinkTrack cross-attention** module for internal cue recovery, without changing the inference interface or requiring auxiliary losses.
+
+## Introduction
+
+This paper introduces **ViCuR**, a visually grounded privileged-teacher distillation framework for multimodal reasoning. It replaces conventional answer-based privileges with *visual cues* (query-related evidence in the input) and introduces a lightweight *cue recovery module* that uses dedicated sink-token cross-attention during prefill to aggregate task-relevant visual evidence into an internal representation,  without changing the inference interface or requiring auxiliary losses.
 
 <p align="center">
-  <img src="files/1.png" width="95%">
+  <img src="files/1.png" width="100%">
 </p>
 
 ## Highlights
@@ -20,7 +38,7 @@
 
 ## Results
 
-Main results with Qwen3-VL-2B and 8B students on in-domain, near-domain, and out-of-domain benchmarks:
+<!-- Main results with Qwen3-VL-2B and 8B students on in-domain, near-domain, and out-of-domain benchmarks:
 
 | Method | Vision R1-Test | DynaMath | MathVista | WeMath | MathVerse | MMMU-Val | Video-MME | Avg. |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -35,11 +53,16 @@ Main results with Qwen3-VL-2B and 8B students on in-domain, near-domain, and out
 | OPSD | 42.20 | 65.99 | 73.5 | 43.62 | 52.92 | 62.33 | 66.5 | 58.15 |
 | OPSD + ViCuR | **45.00** | **67.17** | **74.1** | **46.29** | **53.25** | **63.33** | **66.6** | **59.39** |
 | OPD | 51.09 | 69.22 | 78.1 | 58.38 | 60.05 | 64.33 | 66.0 | 63.88 |
-| OPD + ViCuR | **52.07** | **70.70** | **76.7** | **60.57** | **61.55** | **66.56** | **66.6** | **64.96** |
+| OPD + ViCuR | **52.07** | **70.70** | **76.7** | **60.57** | **61.55** | **66.56** | **66.6** | **64.96** | -->
+
+![alt text](assets/main_results.png)
+
+Main results with Qwen3-VL-2B and 8B students on in-domain, near-domain, and out-of-domain benchmarks. ViCuR consistently
+improves the overall average over the corresponding distillation baseline (OPSD or OPD) at both 2B and 8B scales.
 
 ## Repository Structure
 
-This codebase is built upon [verl](https://github.com/volcengine/verl) (v0.11 latest). Our modifications include:
+This codebase is built upon [verl](https://github.com/volcengine/verl). Our modifications include:
 
 ```
 model_sink_track/
@@ -60,8 +83,13 @@ Key contributions to the verl framework:
 
 ### 1. Environment Setup
 
-Set up the base environment following the [verl official installation guide](https://github.com/volcengine/verl). Then replace the Qwen3-VL model code in your local Transformers and vLLM installations with the SinkTrack variants provided in `model_sink_track/` (including model class registration).
+Set up the base environment following the [verl official installation guide](https://github.com/volcengine/verl). 
+Specifically, to ensure the correct environment configuration, pull the designated Docker image version by running:
 
+```bash
+docker pull verlai/verl:vllm011.latest
+```
+Then, replace the Qwen3-VL model code in your local Transformers and vLLM installations with the SinkTrack variants provided in model_sink_track/ (including model class registration).
 ### 2. Run Training
 
 ```bash
@@ -90,4 +118,4 @@ This project is licensed under the Apache License 2.0, following the license of 
 
 ## Acknowledgements
 
-This codebase is built upon [verl](https://github.com/volcengine/verl) and uses the [SinkTrack](https://github.com/Efficient-ML/SinkTrack) attention mechanism. We thank the authors for their open-source contributions.
+This codebase is built upon [verl](https://github.com/volcengine/verl). We thank the authors for their open-source contributions.
