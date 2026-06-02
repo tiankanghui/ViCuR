@@ -16,7 +16,7 @@
 </div>
 
 <p align="center">
-  <a href="files/ViCuR.pdf">Paper</a> &nbsp;|&nbsp;
+  <a href="assets/ViCuR.pdf">Paper</a> &nbsp;|&nbsp;
   <a href="#quick-start">Quick Start</a> &nbsp;|&nbsp;
   <a href="#citation">Citation</a>
 </p>
