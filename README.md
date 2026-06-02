@@ -1,12 +1,12 @@
 # ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation
 
 <div align="center" style="margin-bottom:.5em;">
-  <a target="_blank" href="https://tiankanghui.github.io/">Kanghui Tian<sup>*</sup></a>,
-  <a target="_blank" href="https://sirilaw.github.io/">Siyuan Liu<sup>*</sup></a>,
-  <a target="_blank" href="#">Ziang Yan</a>,
-  <a target="_blank" href="#">Sheng Xia</a>,
-  <a target="_blank" href="#">Shuai Dong</a>,
-  <a target="_blank" href="https://shepnerd.github.io/">Yi Wang<sup><span style="font-family: 'Times New Roman', serif;">&dagger;</span></sup></a>
+  <a target="_blank" href="https://tiankanghui.github.io/">Kanghui Tian<sup>*1,2</sup></a>,
+  <a target="_blank" href="https://sirilaw.github.io/">Siyuan Liu<sup>*3</sup></a>,
+  <a target="_blank" href="#">Ziang Yan<sup>1</sup></a>,
+  <a target="_blank" href="#">Sheng Xia<sup>3</sup></a>,
+  <a target="_blank" href="#">Shuai Dong<sup>2</sup></a>,
+  <a target="_blank" href="https://shepnerd.github.io/">Yi Wang<sup><span style="font-family: 'Times New Roman', serif;">&dagger;1</span></sup></a>
   <br>
   <strong>
     <sup>1</sup>Shanghai AI Laboratory, <sup>2</sup>Fudan Univerisity, <sup>3</sup>Nanjing University
