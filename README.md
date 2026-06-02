@@ -1,12 +1,12 @@
 # ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation
 
 <div align="center" style="margin-bottom:.5em;">
-  <a target="_blank" href="#">Kanghui Tian<sup>*</sup></a>,
-  <a target="_blank" href="#">Siyuan Liu<sup>*</sup></a>,
+  <a target="_blank" href="https://tiankanghui.github.io/">Kanghui Tian<sup>*</sup></a>,
+  <a target="_blank" href="https://sirilaw.github.io/">Siyuan Liu<sup>*</sup></a>,
   <a target="_blank" href="#">Ziang Yan</a>,
   <a target="_blank" href="#">Sheng Xia</a>,
   <a target="_blank" href="#">Shuai Dong</a>,
-  <a target="_blank" href="#">Yi Wang<sup><span style="font-family: 'Times New Roman', serif;">&dagger;</span></sup></a>
+  <a target="_blank" href="https://shepnerd.github.io/">Yi Wang<sup><span style="font-family: 'Times New Roman', serif;">&dagger;</span></sup></a>
   <br>
   <strong>
     Shanghai AI Laboratory, Fudan Univerisity, Nanjing University
@@ -27,7 +27,7 @@
 This paper introduces **ViCuR**, a visually grounded privileged-teacher distillation framework for multimodal reasoning. It replaces conventional answer-based privileges with *visual cues* (query-related evidence in the input) and introduces a lightweight *cue recovery module* that uses dedicated sink-token cross-attention during prefill to aggregate task-relevant visual evidence into an internal representation,  without changing the inference interface or requiring auxiliary losses.
 
 <p align="center">
-  <img src="files/1.png" width="100%">
+  <img src="assets/comparison.png" width="100%">
 </p>
 
 ## Highlights
