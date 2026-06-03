@@ -65,7 +65,7 @@ improves the overall average over the corresponding distillation baseline (OPSD 
 This codebase is built upon [verl](https://github.com/volcengine/verl). Our modifications include:
 
 ```
-model_sink_track/
+vicur/
 ├── modeling_qwen3_vl.py   # SinkTrack cross-attention for Transformers (student training)
 └── qwen3_vl.py            # SinkTrack cross-attention for vLLM (student rollout)
 
