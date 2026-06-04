@@ -89,7 +89,7 @@ Specifically, to ensure the correct environment configuration, pull the designat
 ```bash
 docker pull verlai/verl:vllm011.latest
 ```
-Then, replace the Qwen3-VL model code in your local Transformers and vLLM installations with the SinkTrack variants provided in model_sink_track/ (including model class registration).
+Then, replace the Qwen3-VL model code in your local Transformers and vLLM installations with the SinkTrack variants provided in `vicur/` (including model class registration).
 ### 2. Run Training
 
 ```bash
