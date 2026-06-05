@@ -105,10 +105,14 @@ Key configurations in the training script:
 ## Citation
 
 ```bibtex
-@article{tian2026vicur,
-  title={ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation},
-  author={Tian, Kanghui and Liu, Siyuan and Yan, Ziang and Xia, Sheng and Dong, Shuai and Wang, Yi},
-  year={2026}
+@misc{tian2026vicurvisualcuesrecoverable,
+      title={ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation}, 
+      author={Kanghui Tian and Siyuan Liu and Ziang Yan and Sheng Xia and Shuai Dong and Yi Wang},
+      year={2026},
+      eprint={2606.05718},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2606.05718}, 
 }
 ```
 
