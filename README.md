@@ -1,12 +1,12 @@
 # ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation
 
 <div align="center" style="margin-bottom:.5em;">
-  <a target="_blank" href="https://tiankanghui.github.io/">Kanghui Tian<sup>*1,2</sup></a>,
-  <a target="_blank" href="https://sirilaw.github.io/">Siyuan Liu<sup>*3</sup></a>,
-  <a target="_blank" href="#">Ziang Yan<sup>1</sup></a>,
-  <a target="_blank" href="#">Sheng Xia<sup>3</sup></a>,
-  <a target="_blank" href="#">Shuai Dong<sup>2</sup></a>,
-  <a target="_blank" href="https://shepnerd.github.io/">Yi Wang<sup><span style="font-family: 'Times New Roman', serif;">&dagger;1</span></sup></a>
+  <a target="_blank" href="https://tiankanghui.github.io/">Kanghui Tian</a><sup>*1,2</sup>,
+  <a target="_blank" href="https://sirilaw.github.io/">Siyuan Liu</a><sup>*3</sup>,
+  <a target="_blank" href="#">Ziang Yan</a><sup>1</sup>,
+  <a target="_blank" href="#">Sheng Xia</a><sup>3</sup>,
+  <a target="_blank" href="#">Shuai Dong</a><sup>2</sup>,
+  <a target="_blank" href="https://shepnerd.github.io/">Yi Wang</a><sup><span style="font-family: 'Times New Roman', serif;">&dagger;1</span></sup>
   <br>
   <strong>
     <sup>1</sup>Shanghai AI Laboratory, <sup>2</sup>Fudan Univerisity, <sup>3</sup>Nanjing University
@@ -16,7 +16,7 @@
 </div>
 
 <p align="center">
-  <a href="assets/ViCuR.pdf">Paper</a> &nbsp;|&nbsp;
+  <a href="https://arxiv.org/abs/2606.05718">Paper</a> &nbsp;|&nbsp;
   <a href="#quick-start">Quick Start</a> &nbsp;|&nbsp;
   <a href="#citation">Citation</a>
 </p>
@@ -105,14 +105,11 @@ Key configurations in the training script:
 ## Citation
 
 ```bibtex
-@misc{tian2026vicurvisualcuesrecoverable,
-      title={ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation}, 
-      author={Kanghui Tian and Siyuan Liu and Ziang Yan and Sheng Xia and Shuai Dong and Yi Wang},
-      year={2026},
-      eprint={2606.05718},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2606.05718}, 
+@article{tian2026vicurvisualcuesrecoverable,
+    title={ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation}, 
+    author={Tian, Kanghui and Liu, Siyuan and Yan, Ziang and Xia, Sheng and Dong, Shuai and Wang, Yi},
+    journal={arXiv preprint arXiv:2606.05718},
+    year={2026},
 }
 ```
 
