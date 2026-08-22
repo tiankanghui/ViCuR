@@ -1,4 +1,4 @@
-# ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation
+# [EMNLP 2026] ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation
 
 <div align="center" style="margin-bottom:.5em;">
   <a target="_blank" href="https://tiankanghui.github.io/">Kanghui Tian</a><sup>*1,2</sup>,
@@ -20,6 +20,11 @@
   <a href="#quick-start">Quick Start</a> &nbsp;|&nbsp;
   <a href="#citation">Citation</a>
 </p>
+
+*This is the official implementation of the EMNLP 2026 paper "ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation"* 
+
+## News
+**[2026-08-21]** ViCuR has been accepted by EMNLP 2026 as a Main Conference paper! 
 
 
 ## Introduction
