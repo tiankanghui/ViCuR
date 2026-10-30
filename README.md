@@ -1,4 +1,4 @@
-# [EMNLP 2026] ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation
+# [EMNLP 2026 Main] ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation
 
 <div align="center" style="margin-bottom:.5em;">
   <a target="_blank" href="https://tiankanghui.github.io/">Kanghui Tian</a><sup>*1,2</sup>,
@@ -9,19 +9,19 @@
   <a target="_blank" href="https://shepnerd.github.io/">Yi Wang</a><sup><span style="font-family: 'Times New Roman', serif;">&dagger;1</span></sup>
   <br>
   <strong>
-    <sup>1</sup>Shanghai AI Laboratory, <sup>2</sup>Fudan Univerisity, <sup>3</sup>Nanjing University
+    <sup>1</sup>Fudan University, <sup>2</sup>Shanghai AI Laboratory, <sup>3</sup>Nanjing University
   </strong>
   <br>
   <sup>*</sup>Equal contribution &nbsp; <sup><span style="font-family: 'Times New Roman', serif;">&dagger;</span></sup>Corresponding author
 </div>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2606.05718">Paper</a> &nbsp;|&nbsp;
+  <a href="https://aclanthology.org/2026.emnlp-main.324.pdf">Paper</a> &nbsp;|&nbsp;
   <a href="#quick-start">Quick Start</a> &nbsp;|&nbsp;
   <a href="#citation">Citation</a>
 </p>
 
-*This is the official implementation of the EMNLP 2026 paper "ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation"* 
+*This is the official implementation of the EMNLP 2026 paper "ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation".* 
 
 ## News
 **[2026-08-21]** ViCuR has been accepted by EMNLP 2026 as a Main Conference paper! 
