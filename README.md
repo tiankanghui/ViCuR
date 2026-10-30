@@ -110,6 +110,15 @@ Key configurations in the training script:
 ## Citation
 
 ```bibtex
+@inproceedings{tian2026vicurvisualcuesrecoverable,
+  title={{V}i{C}u{R}: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation},
+  author={Tian, Kanghui and Liu, Siyuan and Yan, Ziang and Xia, Sheng and Dong, Shuai and Wang, Yi},
+  booktitle={Conference on Empirical Methods in Natural Language Processing},
+  year={2026},
+}
+```
+
+```bibtex
 @article{tian2026vicurvisualcuesrecoverable,
     title={ViCuR: Visual Cues as Recoverable Privilege for Multimodal On-Policy Distillation}, 
     author={Tian, Kanghui and Liu, Siyuan and Yan, Ziang and Xia, Sheng and Dong, Shuai and Wang, Yi},
